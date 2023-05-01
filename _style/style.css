@@ -29,10 +29,11 @@ section {
 }
 body.active {
     --text-color: #fff;
-    --bg-color: #0f0c27;
+    --bg-color: #0f0C27;
 }
 body {
     background: var(--bg-color);
+    color: var(--text-color);
 }
 *::selection {
     color: var(--bg-color);
@@ -65,6 +66,9 @@ header {
     padding: 15px 15%;
     transition: .2s;
     box-shadow: -3px -3px 7px #ffffff73 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+header.shadow {
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 .logo {
     font-size: 1.61rem;
