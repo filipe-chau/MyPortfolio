@@ -110,7 +110,7 @@ header.shadow {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 0.1fr 1.2fr 1fr;
     align-items: center;
