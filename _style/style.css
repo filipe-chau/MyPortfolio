@@ -663,8 +663,18 @@ form textarea {
         padding: 30px 15px 5px 15px;
         font-size: .9rem;
     }
+    .details {
+        width: 320px;
+        padding: 4px;
+        margin-bottom: 2rem;
+    }
+    .details p {
+        margin-left: 10px;
+        padding: 15px 0 15px 15px;
+        font-size: 0.9rem;
+    }
     form {
-        width: 350px;
+        width: 320px;
     }
     .contact-btn {
         width: 300px;
