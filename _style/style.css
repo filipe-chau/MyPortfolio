@@ -679,7 +679,7 @@ form textarea {
     .contact-btn {
         width: 300px;
         padding: 2px 15px;
-        margin-left: 22px;
+        margin-left: 8px;
     }
 }
 @media (max-width: 340px) {
