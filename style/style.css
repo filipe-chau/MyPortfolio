@@ -14,8 +14,8 @@
 
 :root {
     --main-color: #033a80;
-    --bg-color: #efebfa;
-    --text-color: #0f0c27;
+    --bg-color: #0f0c27;
+    --text-color: #efebfa;
     --hover: #ff7200;
     --sec-color: #a6a6a6;
     --big-font: 4rem;
@@ -28,8 +28,8 @@ section {
     padding: 25px 15%;
 }
 body.active {
-    --text-color: #fff;
-    --bg-color: #0f0C27;
+    --text-color: #0f0c27;
+    --bg-color: #efebfa;
 }
 body {
     background: var(--bg-color);
