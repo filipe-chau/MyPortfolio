@@ -27,3 +27,23 @@ darkmode.onclick = () => {
         document.body.classList.remove("active");
     }
 };
+
+// swiper library for slides 
+const swiper = new Swiper('.swiper', {
+    loop: true,
+
+    // for pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    autoplay: {
+        delay: 5000,
+    },
+
+    // navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
