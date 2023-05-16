@@ -37,10 +37,10 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         clickable: true,
     },
-    autoplay: {
-        delay: 5000,
+   /* autoplay: {
+        delay: 3000,
     },
-
+    */
     // navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
