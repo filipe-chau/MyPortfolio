@@ -189,13 +189,12 @@ header.shadow {
     margin-top: 3rem;
 }
 .swiper {
-    margin-top: 40px;
     width: 100%;
     height: fit-content;
 }
 .swiper-slide img {
     width: 80%;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 .about-text p {
     font-size: var(--p-font);
