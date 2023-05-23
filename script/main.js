@@ -30,20 +30,21 @@ darkmode.onclick = () => {
 
 // swiper library for slides 
 const swiper = new Swiper('.swiper', {
+    // Optional parameters
     loop: true,
 
-    // for pagination
+    // If we need pagination
     pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+    el: '.swiper-pagination',
+    clickable: true,
     },
-   /* autoplay: {
-        delay: 3000,
+    autoplay: {
+        delay: 2000,
     },
-    */
-    // navigation arrows
+
+    // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
     },
 });
